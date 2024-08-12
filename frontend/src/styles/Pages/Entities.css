@@ -1,0 +1,28 @@
+.entities-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Распределяет карточки по ширине контейнера */
+  margin: -10px; /* Убираем отступы между карточками */
+}
+
+.entities-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px; /* Отступы между карточками */
+  width: calc(20% - 20px); /* Устанавливаем ширину карточки так, чтобы 5 карточек помещались в ряд */
+  box-sizing: border-box; /* Учитываем отступы и границы в ширине */
+}
+@media (max-width: 768px) {
+  .entities-card {
+    width: calc(50% - 20px); /* На меньших экранах показываем по 2 карточки в ряд */
+  }
+}
+
+@media (max-width: 480px) {
+  .entities-card {
+    width: calc(100% - 20px); /* На мобильных экранах показываем по одной карточке в ряд */
+  }
+}

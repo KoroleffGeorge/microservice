@@ -1,0 +1,8 @@
+.app-footer {
+  background-color: #34495e; /* Цвет фона подвала */
+  color: white; /* Цвет текста */
+  text-align: center; /* Центрируем текст */
+  padding: 10px; /* Отступы */
+  position: relative; /* Позиционирование для фиксированного подвала (если нужно) */
+  top-margin: 10px;
+}

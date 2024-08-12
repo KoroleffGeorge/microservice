@@ -1,0 +1,45 @@
+.edit {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.edit h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.edit div {
+  margin-bottom: 15px;
+}
+
+.edit label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.edit input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.edit button {
+  padding: 10px 15px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit button:hover {
+  background-color: #0056b3;
+}
